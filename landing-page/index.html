@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Landing Page</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="container header-container">
+      <h1 class="logo">MyBrand</h1>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container hero-content">
+      <div class="hero-text">
+        <h2>Grow Your Business with Confidence</h2>
+        <p>We help startups and businesses scale faster through smart web solutions and design strategies.</p>
+        <a href="#contact" class="cta-btn">Get Started</a>
+      </div>
+      <img src="assets/work.jpg" alt="Team working" class="hero-img" />
+    </div>
+  </section>
+
+  <section class="features" id="services">
+    <div class="container">
+      <h3 class="section-title">Our Services</h3>
+      <div class="feature-grid">
+        <div class="feature">
+          <h4>Web Design</h4>
+          <p>Modern and mobile-friendly websites that impress your clients.</p>
+        </div>
+        <div class="feature">
+          <h4>SEO Optimization</h4>
+          <p>Improve visibility and grow organically with optimized content.</p>
+        </div>
+        <div class="feature">
+          <h4>Marketing Strategy</h4>
+          <p>Smart strategies to increase your reach and brand recognition.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="container">
+      <h3 class="section-title">About Us</h3>
+      <p class="about-text">
+        We are a creative team of designers and developers passionate about building digital solutions that drive real results. Our mission is to help startups and businesses grow online through smart and impactful web design.
+      </p>
+    </div>
+  </section>
+
+  <section class="testimonials">
+    <div class="container">
+      <h3 class="section-title">What Our Clients Say</h3>
+      <div class="testimonial-grid">
+        <div class="testimonial">
+          <p>"Amazing service and great design. Highly recommended!"</p>
+          <h4>- Alex Johnson</h4>
+        </div>
+        <div class="testimonial">
+          <p>"Professional, fast, and creative. Will work with them again."</p>
+          <h4>- Maria Gomez</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="container">
+      <h3 class="section-title">Contact Us</h3>
+      <form class="contact-form" id="contactForm">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+      <p id="formSuccess" class="success-msg">✅ Thank you! Your message has been received.</p>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container footer-container">
+      <p>&copy; 2025 MyBrand. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
